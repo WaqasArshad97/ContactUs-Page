@@ -1,0 +1,43 @@
+.primary_btn{
+    padding: 10px 10px;
+    background-color:rgba(247, 212, 57, 0.63);
+    color: black;
+    min-height: 30px;
+    min-width: 205px;
+    border: none;
+    /* border-radius: 5px; */
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    font-size: 16px;
+    justify-content: center;
+    margin-top: 15px;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 20px solid black;
+}
+.primary_btn:hover {
+    box-shadow: 0 3px 3px 0 rgba(0,0,0,0.24);
+    color: rgb(105, 86, 2);
+  }
+.outline_btn{
+    padding: 10px 10px;
+    background-color:transparent;
+    color: black;
+    min-height: 30px;
+    min-width: 420px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    font-weight: 800px;
+    font-size: 16px;
+    justify-content: center;
+    margin-top: 15px;
+    text-align: center;
+    cursor: pointer;
+}
+.outline_btn:hover {
+    box-shadow: 0 5px 5px 0 rgba(0,0,0,0.24),0 10px 25px 0 rgba(0,0,0,0.19);
+    color: rgb(82, 60, 1);
+}

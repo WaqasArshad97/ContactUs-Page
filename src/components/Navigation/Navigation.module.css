@@ -1,0 +1,18 @@
+.navigation{
+    margin: 0auto;
+    display: flex;
+    justify-content:space-between;
+    height: 72px;
+}
+
+.navigation ul{
+    display: flex;
+    gap: 15px;
+    list-style-type: none;
+    background-color:rgba(247, 212, 57, 0.63);
+    padding: 10px;
+    align-items: center;
+}
+li:hover{
+    color:white;
+}
